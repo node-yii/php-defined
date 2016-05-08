@@ -23,3 +23,13 @@ else
   console.log("PI is not defined");
 }
 ```
+
+## Test
+
+```shell
+npm test
+```
+
+## License
+
+[WTFPL](http://www.wtfpl.net/txt/copying/)
