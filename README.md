@@ -10,12 +10,13 @@ $ npm install --save php-defined
 ## Example Usage
 
 ``` js
-var defined = require('php-defined');
+var defined = require('php-defined').defined;
+var define = require('php-defined').define;
 
-const PI = 3.14;
+define("PI", 3.14);
 if(defined("PI"))
 {
-  console.log("PI is defined");
+  console.log("PI = " + PI);
 }
 else
 {
